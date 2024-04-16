@@ -39,8 +39,6 @@ public class TelegramWebClientImpl implements TelegramWebClient, InitializingBea
     private final ScraperConfig scraperConfig;
     private RateLimiter limiter;
 
-
-
     @Override
     @Nullable
     public TgChannel searchChannel(@Nonnull String channel) {
